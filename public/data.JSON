@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "title": "Basic of Science",
+    "video": 40,
+    "time": "5 h 34 min",
+    "author": "Tomas Mallas",
+    "img": "https://thumbs.dreamstime.com/b/wooden-cubes-abbreviation-basic-science-wooden-cubes-abbreviation-basic-science-background-open-203777178.jpg",
+    "des": "Basic science is the study of the fundamental processes that are essential to life on our planet, including biology, biochemistry, genetics, anatomy, neurobiology, immunology, and more. Sometimes used interchangeably with the term “life science,” basic science isn't just an abstract, theoretical field",
+    "price": 12,
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "title": "Basic of Math",
+    "video": 34,
+    "time": "3 h 10 min",
+    "author": " Jorje Ison",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqF6q79YhywYG_oF7UomVMC8qu_-mAwIHIW_MxfztntL5JJFEGnyD9NYATmmgdEv0ZN9s&usqp=CAU",
+    "des": "Basic math is nothing but the simple or basic concept related with mathematics. Generally, counting, addition, subtraction, multiplication and division are called the basic math operation. ... One can understand the application of these concept and their use in practical life through the word problems.",
+    "price": 80,
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "title": "Intermediate  Science",
+    "video": 51,
+    "time": "7 h 40 min",
+    "author": " Kison Ison",
+    "img": "https://worldwideonlinetutoring.com.au/wp-content/uploads/2020/10/2.png?x15249",
+    "price": 31,
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "title": "Intermediate  Math",
+    "video": 57,
+    "time": "8 h 0 min",
+    "author": "Harison Holan",
+    "img": "https://worldwideonlinetutoring.com.au/wp-content/uploads/2020/10/intermediate.png",
+    "price": 45,
+    "rating": 4.5
+  },
+  {
+    "id": 5,
+    "title": "Higher Math",
+    "video": 51,
+    "time": "8 h 0 min",
+    "author": "Kate Lineb",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5DbMhOZqGXOqh9WHBgiPxhfifGIJJAIkFSM1rpW2AHOMqcI1IjFWyXofmfwoWJC_8Abc&usqp=CAU",
+    "price": 75,
+    "rating": 3.5
+  },
+  {
+    "id": 6,
+    "title": "Applied Math",
+    "video": 60,
+    "time": "5 h 30 min",
+    "author": "Harison Holan",
+    "img": "https://i.pinimg.com/originals/22/16/05/221605780b97da35c25883a8ed2f9237.jpg",
+    "price": 100,
+    "rating": 4
+  },
+  {
+    "id": 7,
+    "title": "Applied Science",
+    "video": 75,
+    "time": "10 h 30 min",
+    "author": "Kiley Horlin",
+    "img": "https://www.easyuni.com/media/ckeditor-uploads/2016/12/09/1_Applied-and-Pure-Sciences.png",
+    "price": 95,
+    "rating": 2.5
+  },
+  {
+    "id": 8,
+    "title": "Physics",
+    "video": 65,
+    "time": "6 h 20 min",
+    "author": "Megolas Mone",
+    "img": "https://thumbs.dreamstime.com/b/physics-doodles-lettering-physics-doodles-lettering-education-vector-illustration-137829167.jpg",
+    "price": 115,
+    "rating": 2.5
+  },
+  {
+    "id": 9,
+    "title": "Geometry",
+    "video": 51,
+    "time": "7 h 25 min",
+    "author": "Jepak Marble",
+    "img": "https://leverageedu.com/blog/wp-content/uploads/2020/01/Class-11-Maths-Syllabus.jpg",
+    "price": 85,
+    "rating": 2.5
+  },
+  {
+    "id": 10,
+    "title": "Biology",
+    "video": 81,
+    "time": "10 h 40 min",
+    "author": "Adam Anlam",
+    "img": "https://wallpaperaccess.com/full/5451375.png",
+    "price": 100,
+    "rating": 2.5
+  }
+]
