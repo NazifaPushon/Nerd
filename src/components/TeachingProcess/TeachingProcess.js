@@ -30,7 +30,7 @@ const TeachingProcess = () => {
             {/* fun fact section */}
             <div className="fs-5">
                 <Row className="align-items-center">
-                    <Col sm={8}>
+                    <Col sm={8} className="mt-5 mt-lg-0">
                         <h2 className="fw-bold fs-2 fun-heading">Fun Fact : </h2>
                         <p>
                             We are gonna learn just about Math and Science ?
