@@ -2,7 +2,9 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 import img from '../../images/heroImg.jpg';
+import './HeroSection.css';
 
+//Hero section Component
 const HeroSection = () => {
     const history = useHistory()
     const handleClick = () => {
@@ -10,6 +12,7 @@ const HeroSection = () => {
     }
     return (
         <Row className="align-items-center my-5 py-5">
+            {/* Content */}
             <Col sm={6}>
                 <div >
                     <h1 className="display-5 fw-bold">Be a Nerd 🤓 </h1>
@@ -22,6 +25,7 @@ const HeroSection = () => {
                 </p>
                 <button className="my-btn-1" onClick={handleClick}>Learn More</button>
             </Col>
+            {/* image */}
             <Col sm={6}>
                 <img className="img-fluid" src={img} alt="" />
             </Col>

@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 import img from '../../images/notFound.jpg';
 
+// Not Found Component
 const NotFound = () => {
     const history = useHistory();
     const handleClick = () => {

@@ -8,6 +8,7 @@ import twitter from '../../images/twitter.svg';
 import UnderLine from '../Underline/UnderLine';
 import './signIn.css';
 
+// Sign in Components
 const SignIn = () => {
     return (
         <Container fluid>
@@ -17,6 +18,7 @@ const SignIn = () => {
             </Col>
             <Col sm={6} className="p-5 container">
             <Container>
+            {/* from starts here */}
             <Form>
                 <h1 className="text-center">Sign in for free</h1>
                 <UnderLine/>
@@ -46,11 +48,13 @@ const SignIn = () => {
                     </button>
                 </NavLink>
             </Form>
+            {/* from ends here */}
+
+            {/* alternative Sign in Option */}
             <div className="my-5">
                <div className="alternateSignIn">
                     <h4 className="text-center py-3"> Or , Sign In with </h4>
-               </div>
-                
+               </div>            
                 <div className="d-flex justify-content-evenly w-75 mx-auto">
                     <NavLink to="/home">
                         <img src={google}  className=" icons" alt="" />
@@ -63,8 +67,7 @@ const SignIn = () => {
                     <NavLink to="/home">
                         <img src={twitter} className=" icons" alt="" />
                     </NavLink>
-                </div>
-                   
+                </div>         
             </div>
             </Container>
             </Col>

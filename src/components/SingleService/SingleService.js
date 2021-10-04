@@ -1,19 +1,22 @@
-import { faArrowRight, faClock } from '@fortawesome/free-solid-svg-icons';
+import { faClock } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
+import React, { useState } from 'react';
 import { Card, Col } from 'react-bootstrap';
 import Rating from 'react-rating';
-import { useHistory } from 'react-router';
 import './singleService.css';
-
+// Single Service Shower components
 const SingleService = (props) => {
-    const {title,img,price,time,author,rating,video,id} = props.data;
-    const history= useHistory()
+    const {title,img,price,time,author,rating,video,des} = props.data;
+    const [showDetail,setShowDetail] = useState(false)
     const handleClick = () => {
-        history.push(`/service/${id}`)
+       const newVal = !showDetail;
+       setShowDetail(newVal)
     }
+    
+    
     return (
         <Col>
+            {/* card start */}
             <Card className="my-card">
                 <Card.Img variant="top" src={img} style={{height:"15rem"}} />
                 <Card.Body className="fs-5">
@@ -36,10 +39,17 @@ const SingleService = (props) => {
                         </div>
                     </div>
                 </Card.Body>
-                <Card.Footer className="text-center card-footer p-0">
-                        <button onClick={handleClick} className="my-btn-2 my-0 w-100 rounded-0"> Learn More  <FontAwesomeIcon icon={faArrowRight}/></button>
+                <Card.Footer className="text-center card-footer ">
+                        <button onClick={handleClick} className="my-btn-2 m-0"> See {
+                            showDetail ? 'Less' : 'More'
+                        }
+                        </button>
+                        {
+                            showDetail && <p className="py-2">{des}</p>
+                        }
                 </Card.Footer>
             </Card>
+            {/* card end */}
         </Col>
     );
 };

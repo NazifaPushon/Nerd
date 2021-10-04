@@ -1,5 +1,6 @@
 import React from 'react';
 
+// this is a simple component for styling
 const UnderLine = () => {
     const style = {
         backgroundColor : 'lightCoral',

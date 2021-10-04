@@ -4,6 +4,7 @@ import { ServiceContext } from '../MyRouter/MyRouter';
 import SingleService from '../SingleService/SingleService';
 import UnderLine from '../Underline/UnderLine';
 
+// Service components that rendered single Service
 const Services = props => {
     const {isLimited} = props
     const services = useContext(ServiceContext)

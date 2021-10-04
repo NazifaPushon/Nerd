@@ -3,11 +3,9 @@ import { Container } from 'react-bootstrap';
 import HeroSection from '../HeroSection/HeroSection';
 import Services from '../Services/Services';
 import TeachingProcess from '../TeachingProcess/TeachingProcess';
-import './home.css';
 
-
+// home Component that wrap up 3 componets
 const Home = () => {
-
     return (
         <Container>
             <HeroSection/>

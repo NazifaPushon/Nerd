@@ -12,6 +12,7 @@ import './TeachingProcess.css';
 const TeachingProcess = () => {
     return (
         <section className="mt-5 mb-2">
+            {/* teaching process section */}
             <h1 className=" text-center fw-bold">Our Teaching Process</h1>
             <UnderLine/>
             <Row className="mt-5  text-center">
@@ -25,6 +26,8 @@ const TeachingProcess = () => {
                 </Col>
                 <MyCard src={assingment} title="Assingments"/>
             </Row>
+
+            {/* fun fact section */}
             <div className="fs-5">
                 <Row className="align-items-center">
                     <Col sm={8}>
@@ -43,6 +46,7 @@ const TeachingProcess = () => {
     );
 };
 
+//single Card
 const MyCard = (props) => {
     const {src,title} = props;
     return (
