@@ -1,4 +1,3 @@
-import { createContext, useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import AboutUs from '../AboutUs/AboutUs';
 import Footer from '../Footer/Footer';
@@ -8,24 +7,14 @@ import NotFound from '../NotFound/NotFound';
 import Services from '../Services/Services';
 import SignIn from '../SignIn/SignIn';
 
-//All routing set up is here and I Created a context here
-export const ServiceContext = createContext()
+//All routing set up is here 
 
 //MyRouter Component
-function MyRouter() {
-  
-    // data load and Store from json file
-    const [services,setServices] = useState([]);
-    useEffect(() => {
-      fetch('./data.JSON')
-      .then(res => res.json())
-      .then(data => setServices(data))
-    } , [])
 
-    return (
-      <ServiceContext.Provider value={services}>
-        <Router>
-            <Header/>
+function MyRouter() {
+    return (  
+      <Router>
+          <Header/>
             <Switch>
             <Route exact path="/">
                 <Home/>
@@ -48,7 +37,6 @@ function MyRouter() {
             </Switch>
             <Footer/>
         </Router>
-      </ServiceContext.Provider>
   );
 }
 
