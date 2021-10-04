@@ -1,7 +1,10 @@
 .header {
-  background-color: #8bdbff;
+  background-color: #a1c5ff;
 }
 .link {
   text-decoration: none;
   color: rgb(29, 29, 29);
+}
+.selected {
+  color: lightcoral;
 }

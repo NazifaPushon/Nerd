@@ -11,3 +11,13 @@
   border: none;
   font-size: 1.25rem;
 }
+
+.my-btn-2 {
+  padding: 0.75rem 1.5rem;
+  background-color: #80a6e4;
+  border-radius: 0.75rem;
+  border: none;
+  color: white;
+  margin: 1.5rem 0;
+  font-size: 1.25rem;
+}

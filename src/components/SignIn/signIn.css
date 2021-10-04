@@ -1,0 +1,25 @@
+.icons {
+  width: 3rem;
+}
+.alternateSignIn::after {
+  content: " ";
+  top: 1.75rem;
+  right: 0rem;
+  position: absolute;
+  width: 12rem;
+  padding: 1px;
+  background-color: rgb(142, 155, 168);
+}
+.alternateSignIn::before {
+  content: " ";
+  top: 1.75rem;
+  left: 0;
+  position: absolute;
+  width: 12rem;
+  padding: 1px;
+  background-color: rgb(142, 155, 168);
+}
+.alternateSignIn {
+  position: relative;
+  text-align: center;
+}

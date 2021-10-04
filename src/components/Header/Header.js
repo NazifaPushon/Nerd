@@ -11,22 +11,24 @@ const Header = () => {
                     <Navbar.Brand className="fs-2 fw-bold">🤓 Nerd.Com</Navbar.Brand>
                     <Nav className="ms-auto">
                     
-                        <NavLink to="/home" className="link fs-5 px-5 text-dark">
+                        <Nav.Link>
+                            <NavLink to="/home" className="link fs-4 fw-bold px-5 " activeClassName="selected">
                             Home
-                        </NavLink>
+                            </NavLink>
+                        </Nav.Link>
                     
                     
-                        <NavLink to="/services" className="link fs-5 px-5 text-dark">
+                        <NavLink to="/services" className="link fs-4 fw-bold px-5" activeClassName="selected">
                             Services
                         </NavLink>
                     
                     
-                        <NavLink to="/aboutUs" className="link fs-5 px-5 text-dark">
+                        <NavLink to="/aboutUs" className="link fs-4 fw-bold px-5" activeClassName="selected">
                             About Us
                         </NavLink>
                     
                     
-                        <NavLink to="/signIn" className="link fs-5 px-5 text-dark">
+                        <NavLink to="/signIn" className="link fs-4 fw-bold px-5" activeClassName="selected">
                             Sign In
                         </NavLink>
                    

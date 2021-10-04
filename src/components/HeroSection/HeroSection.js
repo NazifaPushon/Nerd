@@ -9,11 +9,12 @@ const HeroSection = () => {
         history.push('/services');
     }
     return (
-        <Row className="align-items-center my-5">
+        <Row className="align-items-center my-5 py-5">
             <Col sm={6}>
                 <div >
                     <h1 className="display-5 fw-bold">Be a Nerd 🤓 </h1>
                     <h1 className="display-5 fw-bold">Learn Math and Science </h1>
+                    <h1 className="display-5 fw-bold">Win The Whole World</h1>
                     <h1 className="display-5 fw-bold">with <span className="hero-text">Nerd.Com</span> </h1>
                 </div>
                 <p className="my-4 fs-5">

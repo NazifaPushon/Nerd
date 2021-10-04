@@ -1,0 +1,9 @@
+.heading {
+  color: #1c2244;
+}
+.about-us-text {
+  font-size: 1.25rem;
+  padding: 2rem;
+  border-left: 10px solid palevioletred;
+  margin: 1.5rem 0rem;
+}
