@@ -20,7 +20,7 @@ const Services = props => {
                 <UnderLine/>
                 <Row xs={1} md={3} className="g-4 mt-3 mb-5">
                 {
-                    isLimited ? services.slice(0,4).map(service => <SingleService key={service.id} data={service}/>) : services.map(service => <SingleService key={service.id} data={service}/>)
+                    isLimited ? services.slice(0,6).map(service => <SingleService key={service.id} data={service}/>) : services.map(service => <SingleService key={service.id} data={service}/>)
                 }
             </Row>
             </Container>
