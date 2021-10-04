@@ -10,9 +10,9 @@ const NotFound = () => {
         history.push('/home')
     }
     return (
-        <Container className="my-5">
-            <div className="w-75 mx-auto text-center">
-                <img src={img} alt="" className="w-75"/>
+        <Container className="mb-5">
+            <div className="w-50 mx-auto text-center">
+                <img src={img} alt="" className="w-50"/>
                 <h1 className="display-4">Page Not Found</h1>
                 <button className="my-btn-1" onClick={handleClick}>Back to Home</button>
             </div>
