@@ -1,11 +1,12 @@
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Card, Col, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import assingment from '../../images/assignment.jpg';
 import img from '../../images/fun-fact.jpg';
 import quiz from '../../images/quiz.jpg';
 import video from '../../images/video.jpg';
+import MyCard from '../MyCard/MyCard';
 import UnderLine from '../Underline/UnderLine';
 import './TeachingProcess.css';
 
@@ -46,19 +47,4 @@ const TeachingProcess = () => {
     );
 };
 
-//single Card
-const MyCard = (props) => {
-    const {src,title} = props;
-    return (
-        <Col sm={3} className="d-flex justify-content-center">
-            <Card style={{width:'25rem'}} className="p-3 shadow rounded-3">
-                <div className="d-flex justify-content-center">
-                    <Card.Img variant="top" src={src} className="w-100"/>
-                </div>
-                <Card.Title className="fs-3">{title}</Card.Title>
-            </Card>
-        </Col>
-    )
-
-}
 export default TeachingProcess;
