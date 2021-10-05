@@ -14,3 +14,8 @@
   border-radius: 0.5rem;
   overflow: hidden;
 }
+.price {
+  color: cornflowerblue;
+  font-size: 1.5rem;
+  font-weight: bold;
+}

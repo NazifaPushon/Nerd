@@ -22,7 +22,7 @@ const SingleService = (props) => {
                 <Card.Body className="fs-5">
                     <Card.Title className="fs-4 fw-bold">{title}</Card.Title>
                     <p>Author {author}</p>
-                    <p>Price : $ {price}</p>
+                    <p>Price : $ <span className="price">{price}</span> </p>
                     <p>Total Video :{video}</p>
                     <div className="d-flex justify-content-between">
                         <div className="time">
