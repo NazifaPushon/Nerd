@@ -17,7 +17,7 @@ const SingleService = (props) => {
     return (
         <Col>
             {/* card start */}
-            <Card className="my-card">
+            <Card className="my-card shadow border-0">
                 <Card.Img variant="top" src={img} style={{height:"15rem"}} />
                 <Card.Body className="fs-5">
                     <Card.Title className="fs-4 fw-bold">{title}</Card.Title>
